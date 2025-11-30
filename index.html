@@ -1,23 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Ilaha Hajiyeva – Portfolio</title>
     <meta charset="utf-8" />
+    <title>Ilaha Hajiyeva – Portfolio</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="ilaha-favicon.png" />
+
     <style>
+      /* Remove all default browser spacing */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        overflow: hidden; /* prevents outer scrollbars */
+      }
+
+      /* Fullscreen iframe */
       iframe {
         width: 100vw;
         height: 100vh;
         border: none;
+        display: block; /* removes small white gaps in some browsers */
       }
     </style>
   </head>
+
   <body>
-    <div>
-      <iframe
-        src="https://ilaha-hajiyeva-b5gfyxt.gamma.site/"
-        title="Ilaha Gamma Portfolio"
-        loading="lazy">
-      </iframe>
-    </div>
+    <iframe
+      src="https://ilaha-hajiyeva-b5gfyxt.gamma.site/"
+      title="Ilaha Gamma Portfolio"
+      loading="lazy"
+      allowfullscreen
+    >
+    </iframe>
   </body>
-</html> 
+</html>
